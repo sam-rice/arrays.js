@@ -15,3 +15,7 @@ myGuitars.push("Epiphone Sheraton");
 /* The below method will create a new array from the first two elements in the myGuitars array. */
 
 var myAcoustics = myGuitars.slice(0, 2);
+
+var favGuitar = myGuitars[3];
+
+console.log(favGuitar);
